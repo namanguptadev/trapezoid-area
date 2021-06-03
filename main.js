@@ -1,5 +1,5 @@
 let arr =[1,5];
-
+let h =3;
 function addition(arr){
     let total = arr[0]+arr[1];
     console.log(total);
@@ -7,8 +7,14 @@ function addition(arr){
 };
 addition(arr);
 function divideByTwo(additionValue){
-    let f = additionValue/2;
-    console.log(f);
+    let dividedValue = additionValue/2;
+    console.log(dividedValue);
+    mutliplication(dividedValue,h);
+};
+
+function mutliplication(dividedValue,h){
+    let multiple=dividedValue*h;
+    console.log(multiple);
 };
 
 
